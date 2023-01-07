@@ -75,7 +75,7 @@ print(square_times(3,9))
 print(square_times(-3,2))
 
 def uniques(list):
-    list_set = set(list)
-    uniques = list_set
+    uniques = set(list)
     return uniques
-print(uniques[1,2,2,3])
+print(uniques([1,2,2,3]))
+print(uniques(["apple","cherry","orange","apple"]))
