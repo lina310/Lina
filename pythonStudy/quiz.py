@@ -1,6 +1,6 @@
 #Boolean represent one of two values: True or False
 # bool() function allows you to evaluate any value, and give you True or False in return.
-# Almost any value is evaluated to True if it has some sort of content; any string is True,
+# Almost any value is evaluated to True if it has some sort of content; any string is True, except empty strings; any number is True, except 0; any list, tuple, set and dictionary are True, except empty ones.
 def bool_test(a) :
     return bool(a)
 
